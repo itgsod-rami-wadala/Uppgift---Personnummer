@@ -104,7 +104,7 @@ Man tar sen summan av alla multiplicerade tal. Om man adderar kontrollsiffran ti
 
 #### Ruby ####
 
-'''ruby
+```ruby
 
     valid_pnr?(pnr: "811218-9876"   #=> true
     valid_pnr?(pnr: "781206-4611"   #=> true
@@ -113,7 +113,7 @@ Man tar sen summan av alla multiplicerade tal. Om man adderar kontrollsiffran ti
 
     generate_pnr(birth_year: 78, birth_county: 'Halland', sex: 'male') #=> "781206-4611"
 
-'''
+```
 
 ## Genomförande ##
 
