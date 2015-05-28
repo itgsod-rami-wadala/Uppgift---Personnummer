@@ -106,10 +106,10 @@ Man tar sen summan av alla multiplicerade tal. Om man adderar kontrollsiffran ti
 
 ```ruby
 
-    valid_pnr?(pnr: "811218-9876"   #=> true
-    valid_pnr?(pnr: "781206-4611"   #=> true
-    valid_pnr?(pnr: "811218-9866"   #=> false
-    valid_pnr?(pnr: "781206-4612"   #=> false
+    valid_pnr?(pnr: "811218-9876")   #=> true
+    valid_pnr?(pnr: "781206-4611")   #=> true
+    valid_pnr?(pnr: "811218-9866")   #=> false
+    valid_pnr?(pnr: "781206-4612")   #=> false
 
     generate_pnr(birth_year: 78, birth_county: 'Halland', sex: 'male') #=> "781206-4611"
 
